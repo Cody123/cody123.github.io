@@ -5,4 +5,4 @@ This work is a work in progress. As such, it is licensed under a
 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 
-Plesae see the link for full terms.
+Please see the link for full terms.
