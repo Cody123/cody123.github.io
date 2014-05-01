@@ -11,7 +11,7 @@
       var CANVAS_HEIGHT = 300;
 
       // Radius of the ball
-      var BALL_RADIUS = 10;
+      var BALL_RADIUS = 20;
 
       // Color of the ball
       var BALL_COLOR = "#0000FF";
@@ -21,8 +21,8 @@
       var ballY = CANVAS_HEIGHT / 2;
 
       // The current speed of the ball
-      var dx = 2;
-      var dy = 5;
+      var dx = 40;
+      var dy = 10;
 
       /**
        * This function takes a 2d canvas context and draws a ball on it at ballX and ballY
@@ -67,17 +67,17 @@
     </script>
     <style>
       canvas#pongCanvas {
-        border-top-width: 2px;
-        border-left-width: 2px;
-        border-bottom-width: 2px;
-        border-right-width: 2px;
+        border-top-width: 4px;
+        border-left-width: 4px;
+        border-bottom-width: 4px;
+        border-right-width: 4px;
         border-top-color: blue;
         border-left-color: red;
         border-bottom-color: black;
         border-right-color: yellow;
-        border-top-style: solid;
+        border-top-style: dotted;
         border-left-style: solid;
-        border-bottom-style: solid;
+        border-bottom-style: dotted;
         border-right-style: solid;
       };
     </style>
