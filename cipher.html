@@ -41,7 +41,7 @@
         if (!isAlpha(character)) {
           return character;
         }
-        var transformedCharCode = -1;
+        var transformedCharCode = (((charaterToNumber(character)-65)*myMultiplier)+myAdder)%26 + 65;
         // WORK:
         // Encrypt the character. Remember that "A" -> 65 in ASCII, so you'll first need to subtract
         // characterToNumber("A") and then add it back in before calling numberToCharacter.
