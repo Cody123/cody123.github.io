@@ -65,12 +65,13 @@
   
         var output = "";
         for (var i = 0; i < input.length; i = i + 1){
-           output+=decrypt_character(input[i],myAdder,myMultiplier)}
+           output+=decrypt_character(input[i],myAdder,myMultiplier);
+           }
           // WORK:
           // Call decrypt_character with the arguments input[i], myAdder, myMultiplier
           // and concatenate the returned value to output.
 
-        }
+        
         plaintext.value = output;
       }
 
