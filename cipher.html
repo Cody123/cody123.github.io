@@ -114,22 +114,23 @@
        * are the inverse of adder or multiplier. If so, you should set inverseAdder or
        * inverseMultiplier as appropriate.
        */
-      function invert() {
+     function invert() {
         var myAdder = parseInt(adder.value);
         var myMultiplier = parseInt(multiplier.value);
         var inverseAdder = -1;
         var inverseMultiplier = -1;
         
-         for (var c = 0; c < input.length; c = c + 1) {
-          var checkAdd = myAdder+c;
-          if(checkAdd%26 == 0){
+        for (var c=0; c<=25; c++){
+          var checkAdd = myAdder+a;
+          if (checkAdd%26 == 0){
             inverseAdder = c;
           }
           var checkMult = myMultiplier*c;
-          if(checkMult%26 == 1){
-            inverseMultiplier=c;
+          if (checkMult%26 == 1){
+            inverseMultiplier = c;
           }
         }
+
 
         // WORK:
         // LOOP OVER THE NUMBERS BETWEEN 0 and 26 here. Once you find the number x such that
